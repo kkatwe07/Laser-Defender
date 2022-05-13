@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0011fc32189793546b6e7a5cecd3dd23
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ExplosionVFX: {fileID: 8232998767684036136, guid: e931054cacd23904eb08977a6083f145, type: 3}
+  - deathSound: {fileID: 8300000, guid: 0c08fc56a8cd9ca4f8835480c23375bd, type: 3}
+  - EnemyLaser: {fileID: 1058147398037607916, guid: 75dc768814c43fd42a452404f7183b52, type: 3}
+  - LaserShotSound: {fileID: 8300000, guid: 9910381513902d64197afd3f20e0fb0c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
