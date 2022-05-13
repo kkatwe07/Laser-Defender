@@ -375,10 +375,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4502959364907439869, guid: 27fcb4ff738a16442a3ae34386c1b4e4, type: 3}
-      propertyPath: LaserShotSound
-      value: 
-      objectReference: {fileID: 8300000, guid: ba5ea9d88deec9b469e66771aee49b34, type: 3}
     - target: {fileID: 4502959364907439871, guid: 27fcb4ff738a16442a3ae34386c1b4e4, type: 3}
       propertyPath: m_RootOrder
       value: 4
