@@ -47,7 +47,7 @@ public class Enemy : MonoBehaviour
     private void Fire()
     {
         GameObject laser = Instantiate(EnemyLaser, transform.position, Quaternion.identity) as GameObject;
-        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(1, -projectileSpeed);
+        laser.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(1, -projectileSpeed);
         AudioSource.PlayClipAtPoint(LaserShotSound, Camera.main.transform.position, projectileVolume);
     }
 

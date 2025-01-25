@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
         while(true)
         {
             GameObject laser = Instantiate(laserPrefab, transform.position, Quaternion.identity) as GameObject;
-            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+            laser.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, projectileSpeed);
             AudioSource.PlayClipAtPoint(LaserShotSound, Camera.main.transform.position, projectileVolume);
             yield return new WaitForSeconds(ProjectileFiringPeriod);
         }
